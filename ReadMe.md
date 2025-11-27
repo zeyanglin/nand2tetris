@@ -1,7 +1,7 @@
 # Nand2Tetris 学习仓库
 
 这是我个人的 Nand2Tetris 学习仓库，记录 HDL 代码和核心笔记，用于学习计算机系统构建与数字逻辑设计。  
-详细笔记保存在 Notion（只读链接）：[Notion 笔记](https://www.notion.so/你的页面链接)
+详细笔记保存在 Notion（只读链接）：[Notion 笔记](https://www.notion.so/nand2tetris-2af7c663d13d80aca0def861c0745892)
 
 ---
 
@@ -30,7 +30,7 @@
 |------|------|------|-----|------|
 | DFF/1-bit Register | 时钟触发存储，load 控制 | ✅ | ✅ | 完成 |
 | Register | 多位寄存器组合 | ✅ | ✅ | 完成 |
-| PC       | 程序计数器逻辑 | ✅ | ✅ | 进行中 |
+| PC       | 程序计数器逻辑 | ❌ | ❌ | 进行中 |
 | RAM      | 基本读写逻辑 | ❌ | ❌ | 未开始 |
 
 ### Unit 4 - CPU 控制逻辑
@@ -56,3 +56,8 @@
 
 ## 🗂 文件结构
 
+nand2tetris/
+├── README.md
+├── projects/ # 官方提供的示例/测试文件
+├── tools/ # 官方提供的工具
+├── UnitX/ # UnitX 的 HDL 文件
